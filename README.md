@@ -23,7 +23,7 @@ from that file. Two real problems are visible in the public data:
   Android `apk`. The README (line ~51) lists **Linux as a supported platform**.
 - **On Linux the in-app updater always fails.** For Linux, `platformKey` is
   `Linux-x86_64`/`Linux-arm64`; `app.full` has no such key, so
-  [`update_service.py` L233-L239](https://github.com/XiaoYouChR/Ghost-Downloader-3/blob/main/app/services/update_service.py#L233-L239)
+  [`update_service.py` L228-L230](https://github.com/XiaoYouChR/Ghost-Downloader-3/blob/main/app/services/update_service.py#L228-L230)
   hits `if not full:` and emits `FAILED: 当前平台无可用更新`. Delta patches are also
   gated to the exact installed version (`patch.get("from") == VERSION`, L211-214), so even
   on Windows/macOS only one prior version gets a delta — 28 of the last 29 releases have no
