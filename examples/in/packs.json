@@ -1,0 +1,82 @@
+{
+  "packs": [
+    {
+      "name": "bili_pack",
+      "file": "bili_pack.zip",
+      "sha256": "d8eecc7c284e478485db0ef424e03ca61dcd0ce1ce6acdf9317d52a6dbe7245e",
+      "size": 37498
+    },
+    {
+      "name": "bittorrent_pack",
+      "file": "bittorrent_pack.zip",
+      "sha256": "cb934b70849b97f3efa37a629c536778881fa1f437b90c842ab7571c9b8b01b3",
+      "size": 22396
+    },
+    {
+      "name": "ed2k_pack",
+      "file": "ed2k_pack.zip",
+      "sha256": "72e020a4b9423fa921e1aa8bbaeb3f1cde898dd9579b820c15b1ccd0d13337de",
+      "size": 25883
+    },
+    {
+      "name": "ffmpeg_pack",
+      "file": "ffmpeg_pack.zip",
+      "sha256": "bb487dd8012422afbf1381c421cb16624d1e79576e4fe3ebbb59078f3072ce40",
+      "size": 20740
+    },
+    {
+      "name": "ftp_pack",
+      "file": "ftp_pack.zip",
+      "sha256": "7311241e767d84408946838be134cc56c2c496a49b3cd8217ac1575ad9502f34",
+      "size": 7966
+    },
+    {
+      "name": "github_pack",
+      "file": "github_pack.zip",
+      "sha256": "95c266525a5c38904d75f43c77fcb96c589312f4fa31647a0a074760aa53b66e",
+      "size": 6701
+    },
+    {
+      "name": "http_pack",
+      "file": "http_pack.zip",
+      "sha256": "d1246db0f805cdacd2d01e10c803b545623d9c4b8d06bb3973074bb87b8c3e70",
+      "size": 11751
+    },
+    {
+      "name": "huggingface_pack",
+      "file": "huggingface_pack.zip",
+      "sha256": "263fef9421578560513314f6eb0895910b608e97c19ab275108fd8044fe00f82",
+      "size": 8891
+    },
+    {
+      "name": "m3u8_pack",
+      "file": "m3u8_pack.zip",
+      "sha256": "b76ed67adbbb4ce66a6d1452a5766a7cff12ed262ebbad5c5aaa2b591f915fe1",
+      "size": 21409
+    },
+    {
+      "name": "yt_dlp_pack",
+      "file": "yt_dlp_pack.zip",
+      "sha256": "61c04cdef4a75d0dc4c897938e6110a0c97062b565c048877fdc15aef26809a7",
+      "size": 23246
+    },
+    {
+      "name": "arxiv_pack",
+      "file": "arxiv_pack.zip",
+      "sha256": "39ef16049d9770faac7853b6c7e41ad243fb72b25d0f063efd21ab5518fa2800",
+      "size": 6181
+    },
+    {
+      "name": "wrapped_link_pack",
+      "file": "wrapped_link_pack.zip",
+      "sha256": "6a655d115ea8c45c97a3f71e816b9cd6e19aa5cf68749cda8c96cc8737253b70",
+      "size": 1612
+    },
+    {
+      "name": "zip_pack",
+      "file": "zip_pack.zip",
+      "sha256": "efa62c8a5ca073439894d65efb559a87549b0d29c40b51b91bec98f723c3f579",
+      "size": 6629
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "tool": "ghost-release-cover",
+  "app_version": "4.5.10",
+  "release_tag": "v4.5.10",
+  "coverage": {
+    "artifacts_total": 17,
+    "artifacts_tracked": 8,
+    "artifacts_untracked": [
+      "Ghost-Downloader-v4.5.10-Android-arm64-v8a.apk",
+      "Ghost-Downloader-v4.5.10-Linux-arm64.AppImage",
+      "Ghost-Downloader-v4.5.10-Linux-arm64.deb",
+      "Ghost-Downloader-v4.5.10-Linux-arm64.tar.xz",
+      "Ghost-Downloader-v4.5.10-Linux-x86_64.AppImage",
+      "Ghost-Downloader-v4.5.10-Linux-x86_64.deb",
+      "Ghost-Downloader-v4.5.10-Linux-x86_64.tar.xz",
+      "Ghost-Downloader-v4.5.10-Windows-arm64-Setup.exe",
+      "Ghost-Downloader-v4.5.10-Windows-x86_64-Setup.exe"
+    ],
+    "platforms_shipped": [
+      "Android-arm64",
+      "Linux-arm64",
+      "Linux-x86_64",
+      "Windows-arm64",
+      "Windows-x86_64",
+      "macOS-arm64",
+      "macOS-x86_64"
+    ],
+    "platforms_in_manifest": [
+      "Windows-arm64",
+      "Windows-x86_64",
+      "macOS-arm64",
+      "macOS-x86_64"
+    ],
+    "platforms_uncovered": [
+      "Android-arm64",
+      "Linux-arm64",
+      "Linux-x86_64"
+    ]
+  },
+  "patch_reachability": {
+    "patch_from": [
+      "4.5.8"
+    ],
+    "prior_versions": 29,
+    "prior_with_patch": [
+      "4.5.8"
+    ],
+    "prior_without_patch": 28,
+    "forced_full_versions": 28
+  },
+  "integrity": {
+    "checked": 8,
+    "mismatches": [],
+    "missing": []
+  },
+  "packs": {
+    "checked": 13,
+    "mismatches": [],
+    "missing": []
+  },
+  "summary": {
+    "findings": 5,
+    "errors": 0,
+    "warnings": 5,
+    "status": "problems"
+  },
+  "findings": [
+    {
+      "id": "ARTIFACT_UNTRACKED",
+      "level": "warning",
+      "message": "9 release artifact(s) are not tracked by the manifest",
+      "detail": {
+        "assets": [
+          "Ghost-Downloader-v4.5.10-Android-arm64-v8a.apk",
+          "Ghost-Downloader-v4.5.10-Linux-arm64.AppImage",
+          "Ghost-Downloader-v4.5.10-Linux-arm64.deb",
+          "Ghost-Downloader-v4.5.10-Linux-arm64.tar.xz",
+          "Ghost-Downloader-v4.5.10-Linux-x86_64.AppImage",
+          "Ghost-Downloader-v4.5.10-Linux-x86_64.deb",
+          "Ghost-Downloader-v4.5.10-Linux-x86_64.tar.xz",
+          "Ghost-Downloader-v4.5.10-Windows-arm64-Setup.exe",
+          "Ghost-Downloader-v4.5.10-Windows-x86_64-Setup.exe"
+        ]
+      }
+    },
+    {
+      "id": "PLATFORM_UNCOVERED",
+      "level": "warning",
+      "message": "Android-arm64 is shipped in the release but has no app.full entry (in-app update on this platform ends in 'no update available')",
+      "detail": {
+        "platform": "Android-arm64"
+      }
+    },
+    {
+      "id": "PLATFORM_UNCOVERED",
+      "level": "warning",
+      "message": "Linux-arm64 is shipped in the release but has no app.full entry (in-app update on this platform ends in 'no update available')",
+      "detail": {
+        "platform": "Linux-arm64"
+      }
+    },
+    {
+      "id": "PLATFORM_UNCOVERED",
+      "level": "warning",
+      "message": "Linux-x86_64 is shipped in the release but has no app.full entry (in-app update on this platform ends in 'no update available')",
+      "detail": {
+        "platform": "Linux-x86_64"
+      }
+    },
+    {
+      "id": "PATCH_MISSING_FOR_PRIOR",
+      "level": "warning",
+      "message": "28 prior release(s) have no delta patch → forced full download",
+      "detail": {
+        "versions": [
+          "4.5.7",
+          "4.5.6",
+          "4.5.5",
+          "4.5.4",
+          "4.5.3",
+          "4.5.2",
+          "4.5.1",
+          "4.5.0",
+          "4.4.7",
+          "4.4.6",
+          "4.4.5",
+          "4.4.4",
+          "4.4.3",
+          "4.4.2",
+          "4.4.0",
+          "4.3.7",
+          "4.3.6",
+          "4.3.5",
+          "4.3.4",
+          "4.3.3",
+          "4.3.2",
+          "4.3.1",
+          "4.3.0",
+          "4.2.6",
+          "4.2.5",
+          "4.2.4",
+          "4.2.3",
+          "4.2.2"
+        ]
+      }
+    }
+  ]
+}

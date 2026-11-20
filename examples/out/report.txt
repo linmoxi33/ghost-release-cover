@@ -1,0 +1,15 @@
+ghost-release-cover — Ghost Downloader release-manifest audit
+app_version=4.5.10  release_tag=v4.5.10
+
+Coverage   : 8/17 artifacts tracked; platforms 4/7 covered
+  uncovered: Android-arm64, Linux-arm64, Linux-x86_64
+Patch reach: from ['4.5.8']; 28/29 prior releases forced to full download
+Integrity  : 8 app artifacts checked, 0 mismatch, 0 missing
+Packs      : 13 checked, 0 mismatch, 0 missing
+
+Result     : PROBLEMS: 0 error(s), 5 warning(s)
+  [warning] ARTIFACT_UNTRACKED: 9 release artifact(s) are not tracked by the manifest
+  [warning] PLATFORM_UNCOVERED: Android-arm64 is shipped in the release but has no app.full entry (in-app update on this platform ends in 'no update available')
+  [warning] PLATFORM_UNCOVERED: Linux-arm64 is shipped in the release but has no app.full entry (in-app update on this platform ends in 'no update available')
+  [warning] PLATFORM_UNCOVERED: Linux-x86_64 is shipped in the release but has no app.full entry (in-app update on this platform ends in 'no update available')
+  [warning] PATCH_MISSING_FOR_PRIOR: 28 prior release(s) have no delta patch → forced full download
